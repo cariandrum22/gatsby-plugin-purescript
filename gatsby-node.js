@@ -8,16 +8,14 @@ function onCreateWebpackConfig({ actions }) {
           test: /\.purs$/,
           loader: "purs-loader",
           exclude: /node_modules/,
-          query: {
-            src: [
-              "src/**/*.purs"
-            ],
+          options: {
+            src: ["src/**/*.purs"],
             pscIde: true,
-            spago: true
-          }
-        }
-      ]
-    }
+            spago: true,
+          },
+        },
+      ],
+    },
   });
 }
 

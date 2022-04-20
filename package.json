@@ -19,6 +19,6 @@
     "purs-loader": "^3.3.0"
   },
   "peerDependencies": {
-    "gatsby": "^2.0.0"
+    "gatsby": "^4.12.1"
   }
 }
